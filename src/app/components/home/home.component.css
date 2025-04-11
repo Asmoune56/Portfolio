@@ -1,58 +1,80 @@
 .home-section {
-    padding: 80px 20px;
-    background-color: #272a2cd3;
-    text-align: center;
-    font-family: 'Segoe UI', sans-serif;
-  }
-  
-  .container {
-    max-width: 900px;
-    margin: auto;
-  }
-  
-  .home-section h1 {
-    font-size: 36px;
-    color: #929eaa;
-    margin-bottom: 10px;
-  }
-  
-  .home-section h2 {
-    font-size: 24px;
-    color: #a7babb;
-    margin-bottom: 20px;
-  }
-  
-  .profile-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin: 20px auto;
-    box-shadow: 5px 0px 4px rgb(253, 1, 1);
-  }
-  
-  .home-section p {
-    font-size: 18px;
-    color: #d5dbe0;
-    margin-bottom: 30px;
-  }
-  
-  .socials {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-  
-  .socials a {
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: 500;
-    color: #3498db;
-    transition: color 0.3s ease, transform 0.3s ease;
-  }
-  
-  .socials a:hover {
-    color: #2980b9;
-    transform: translateY(-2px);
-  }
-  
+  padding: 100px 40px;
+  background-color: #000;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  gap: 50px;
+}
+
+.text-content {
+  flex: 1;
+  text-align: left;
+}
+
+.text-content h1 {
+  font-size: 48px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.text-content h1 span {
+  color: cyan;
+}
+
+.text-content h2 {
+  font-size: 28px;
+  color: #a7babb;
+  margin-bottom: 20px;
+}
+
+.text-content p {
+  font-size: 18px;
+  color: #d5dbe0;
+  max-width: 500px;
+  margin-bottom: 30px;
+}
+
+.socials {
+  display: flex;
+  gap: 20px;
+}
+
+.socials a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: cyan;
+  border: 1px solid cyan;
+  padding: 8px 14px;
+  border-radius: 20px;
+  transition: 0.3s;
+}
+
+.socials a:hover {
+  background-color: cyan;
+  color: black;
+}
+
+.profile-img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 0 30px cyan;
+  transition: transform 0.3s;
+}
+
+.profile-img:hover {
+  transform: scale(1.05);
+}
