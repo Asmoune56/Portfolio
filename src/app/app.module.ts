@@ -11,6 +11,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { CvComponent } from './components/cv/cv.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,7 @@ import { ProjectsComponent } from './components/projects/projects.component';
     ProjectsComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule, 
     AppRoutingModule
   ],
   providers: [],

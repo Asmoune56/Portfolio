@@ -1,18 +1,16 @@
 <nav class="navbar">
-    <a routerLink="/" class="logo">
-        <img src="assets/logo.jpeg" alt="Logo text" class="logo-img">
-      </a>
-    <div class="navbar-container">
-     
-      <ul class="nav-links">
-        <li><a routerLink="/home">Accueil</a></li>
-        <li><a routerLink="/about">À propos</a></li>
-        <li><a routerLink="/projects">Projets</a></li>
-        <li><a routerLink="/cv">CV</a></li>
-        <li><a routerLink="/contact">Contact</a></li>
-      </ul>
-    </div>
-
+  <a routerLink="/" class="logo">
+    <img src="assets/logo.jpeg" alt="Logo text" class="logo-img">
+  </a>
+  <div class="navbar-container">
+    <ul class="nav-links">
+      <li><a (click)="scrollToSection('home')">Accueil</a></li>
+      <li><a (click)="scrollToSection('about')">À propos</a></li>
+      <li><a (click)="scrollToSection('projects')">Projets</a></li>
+      <li><a (click)="scrollToSection('cv')">CV</a></li>
+      <li><a (click)="scrollToSection('contact')">Contact</a></li>
+    </ul>
+  </div>
 </nav>
 
   

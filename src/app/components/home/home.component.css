@@ -1,6 +1,6 @@
 .home-section {
     padding: 80px 20px;
-    background-color: #ecf0f1;
+    background-color: #272a2cd3;
     text-align: center;
     font-family: 'Segoe UI', sans-serif;
   }
@@ -12,13 +12,13 @@
   
   .home-section h1 {
     font-size: 36px;
-    color: #2c3e50;
+    color: #929eaa;
     margin-bottom: 10px;
   }
   
   .home-section h2 {
     font-size: 24px;
-    color: #7f8c8d;
+    color: #a7babb;
     margin-bottom: 20px;
   }
   
@@ -28,12 +28,12 @@
     border-radius: 50%;
     object-fit: cover;
     margin: 20px auto;
-    border: 5px solid #3498db;
+    box-shadow: 5px 0px 4px rgb(253, 1, 1);
   }
   
   .home-section p {
     font-size: 18px;
-    color: #34495e;
+    color: #d5dbe0;
     margin-bottom: 30px;
   }
   
